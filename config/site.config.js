@@ -7,7 +7,7 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || '',
+  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'kevin@4ysdk0.onmicrosoft.com',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
@@ -17,7 +17,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Vinfall's Sage Stone",
+  title: "SachinMirror",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/Public',
@@ -38,7 +38,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by <a href="https://github.com/Vinfall/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">onedrive-vercel-index</a> with ❤ by Vinfall.',
+    'Powered by <a href="https://t.me/SachinMirror" target="_blank" rel="noopener noreferrer">onedrive-vercel-index</a> with ❤ by Sachin',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
@@ -56,12 +56,8 @@ module.exports = {
   // you provide. See the documentation for details.
   links: [
     {
-      name: 'Blog',
-      link: 'https://blog.vinfall.com',
-    },
-    {
-      name: 'GitHub',
-      link: 'https://github.com/Vinfall',
+      name: 'Telegram',
+      link: 'https://t.me/Sachin_769',
     },
   ],
 
